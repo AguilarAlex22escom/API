@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/AguilarAlex22escom/API/issues"
   },
-  "homepage": "https://github.com/AguilarAlex22escom/API#readme"
+  "homepage": "https://github.com/AguilarAlex22escom/API#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
 }
