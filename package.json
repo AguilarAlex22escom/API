@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "esta es una practica para consumir una api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AguilarAlex22escom/API.git"
+  },
+  "keywords": [
+    "Alex"
+  ],
+  "author": "Alexander Aguilar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AguilarAlex22escom/API/issues"
+  },
+  "homepage": "https://github.com/AguilarAlex22escom/API#readme"
+}
