@@ -14,11 +14,3 @@
 	--gradientOrangePurple: background-image: linear-gradient(to left top, #970070, #ffb547) ; /*background-image: linear-gradient(to left top, #970070, #c72563, #e85354, #fb8448, #ffb547); Añadir en caso de mejorar el gradiante. */
 }
 
-body {
-	background: var(--gradientBlueBlack) ;
-	background-repeat: no-repeat ; 
-}
-
-header {
-	background: var(--yellow) ;
-}
