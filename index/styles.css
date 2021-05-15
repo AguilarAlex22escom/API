@@ -24,7 +24,7 @@ body {
 	display: grid ;
 	width: 100% ;
 }
-
+/* Barra principal */
 header {
 	width: 100% ;
 	background-image: var(--gradientBlueBlack) ;
@@ -60,5 +60,14 @@ header #icons p {
 header #icons p #mode {
 	color: var(--orange) ;
 	padding: 0 5rem ;
+}
+
+/* Contenido principal */
+
+h3 {
+	width: 60% ;
+	margin: 10% 20% ;
+	font-size: 5rem ;
+	text-align: center ;
 }
 
