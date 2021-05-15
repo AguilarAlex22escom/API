@@ -5,15 +5,60 @@
 
 :root {
 	--darkBlue: #2E0079 ;
+	--semiLightBlue: #006ECF ;
+	--lightBlue: #00BDD3 ;
 	--purple: #970070 ;
 	--pink: #D7225C ;
 	--salmon: #F96F48 ;
 	--orange: #FFB547 ;
 	--yellow: #F9F871 ;
-	--gradientBlueBlack: linear-gradient(to right bottom, #2e0079, #000000) ; /* linear-gradient(to right bottom, #2e0079, #3e004e, #35002c, #230015, #000000); Añadir en caso de mejorar el gradiante. */
-	--gradientOrangePurple: background-image: linear-gradient(to left top, #970070, #ffb547) ; /*background-image: linear-gradient(to left top, #970070, #c72563, #e85354, #fb8448, #ffb547); Añadir en caso de mejorar el gradiante. */
+	--gradientBlueBlack: linear-gradient(to right bottom, #2e0079, #3e004e, #35002c, #230015, #000000) ;
+	--gradientOrangePurple: linear-gradient(to left top, #970070, #c72563, #e85354, #fb8448, #ffb547) ; 
 }
 
 body {
-	background-image: linear-gradient(to right bottom, #2e0079, #3e004e, #35002c, #230015, #000000) ;
+	background-image: #fff ;
 }
+
+.container {
+	display: grid ;
+	width: 100% ;
+}
+
+header {
+	width: 100% ;
+	background-image: var(--gradientBlueBlack) ;
+	display: flex ;
+	align-items: center ;
+	justify-content: space-around ;
+	padding: 0.5rem 0 ;
+	height: 10rem ;
+}
+
+header h2 {
+	width: 60% ;
+	font-size: 2.5rem ;
+	margin-bottom: 0.5rem ;
+	color: #fff ;
+}
+
+header #icons {
+	display: flex ;
+	width: 20% ;
+	justify-content: space-between ;
+	flex-wrap: wrap ;
+	margin: 0 0 0 5% ;
+}
+
+header #icons p {
+	display: flex ;
+	justify-content: space-around ;
+	font-size: 2.5rem ;
+	color: #fff ;
+}
+
+header #icons p #mode {
+	color: var(--orange) ;
+	padding: 0 5rem ;
+}
+
