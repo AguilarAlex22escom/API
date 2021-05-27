@@ -95,25 +95,32 @@ h3 {
 
 #element figure img {
 	width: 100% ;
-	transition: all 2s ease-in-out ; 
+	transition: all 1s linear ; 
 	will-change: transform ;
 }
 
 #element figure #photo {
 	position: absolute ;
-	top: 0 ;
+	top: 100% ;
 	width: 100% ;
 	height: 100% ;
-	background: var(--lightBlue) ; 
-	transition: all 2s ease-out ; 
-	opacity: 0 ;
+	background: #000 ; 
+	transition: all 0.5s ease-in ; 
+	opacity: 1 ;
 	visibility: hidden ;
 	text-align: center ;
+	backdrop-filter: blur(0) ;
+}
+
+#element figure:hover > img {
+	filter: blur(0.6rem) ;
 }
 
 #element figure:hover > #photo {
-	opacity: 0.6 ;
+	opacity: 0.5 ;
+	top: 0 ;
 	visibility: visible ;
+	backdrop-filter: blur(0.5rem) ;
 }
 
 #element figure:hover > #photo h2 {
@@ -122,13 +129,24 @@ h3 {
 }
 
 #element figure #photo h2 {
-	color: #fff ;
+	color: var(--semiLightBlue) ;
+	font-size: 3rem ;
 	font-weight: 400 ;
-	margin: 4em ;
+	opacity: 1 ;
 	transition: all 2s ease-in-out ;
 }
 
+#element figure #photo h4 {
+	color: #fff ;
+	font-size: 2.5rem ;
+
+}
+
 #element figure #photo p {
+	margin: 0 10% ;
+	font-size: 1.2rem ;
+	color: #fff ;
+	opacity: 1 ;
 	padding: 3rem ;
 }
 
