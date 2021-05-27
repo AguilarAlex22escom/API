@@ -7,10 +7,13 @@ fetch(api)
 .then( data => {
 
 	let elem = document.getElementById('element')
-	elem.innerHTML = `<figure><img src=${data.url}></figure>
-						<h2>${data.title}</h2>
-						<h4>Autor: ${data.copyright}</h4>
-						<p>Información de la imágen: ${data.explanation}</p>` 
+	elem.innerHTML = `	<figure><img src=${data.url}>
+							<div id="photo">
+								<h2>${data.title}</h2>
+								<h4>Autor: ${data.copyright}</h4>
+								<p>Información de la imágen: ${data.explanation}</p>
+							</div>
+						</figure>` 
 	console.log(data)
 })
 .catch( error => console.log(error) )
