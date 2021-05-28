@@ -154,9 +154,103 @@ h3 {
 
 footer {
 	display: flex ;
+	flex-wrap: wrap ;
+	align-items: center ;
+	justify-content: center ;
 	width: 100% ;
 	margin: 2rem 0 ;
 	border-top: 0.1rem solid rgba(0, 0, 0, 0.2) ;
 	position: relative ;
 }
+
+footer h2 {
+	width: 100% ;
+	font-size: 3rem ;
+	text-align: center ;
+	padding: 1.8rem 0 ;
+}
+
+footer #logos {
+	display: flex ;
+	justify-content: space-around ;
+	align-items: center ;
+	flex-wrap: wrap ;
+	width: 100% ;
+}
+
+footer #logos section {
+	position: relative ;
+	width: 12% ;
+	height: 2em ;
+	padding: 2em ;
+	margin: 2rem 0 ;
+	text-align: center ;
+	font-size: 3rem ;
+	color: #000000 ;
+}
+
+footer #logos section i {
+	position: relative ;
+	color: #000000 ;
+	opacity: 0.5 ;
+	font-size: 8rem ;
+	bottom: 50% ;
+	right: 0% ;
+	transition: all 0.5s ease-out ;
+}
+
+footer #logos section p {
+	font-size: 2rem ;
+}
+
+footer #logos section:hover > #icon1 {
+	font-size: 8rem ;
+	color: #E44E26 ;
+	opacity: 1 ;
+}
+
+footer #logos section:hover > #icon2 {
+	font-size: 8rem ;
+	color: #0070BB ;
+	opacity: 1 ;
+}
+
+footer #logos:hover section:hover > #icon3 {
+	font-size: 8rem ;
+	color: #F0DB4F ;
+	opacity: 1 ;
+}
+
+footer #logos section img {
+	width: 8rem ;
+	bottom: 100% ;
+	right: 0% ;
+	position: relative ;
+	filter: opacity(0.5) ;
+	transition: all 0.5s ease-out ;
+}
+
+footer #logos section:hover img {
+	position: relative ;
+	filter: opacity(1) ;
+}
+
+footer #logos:hover section:hover > #icon5 {
+	font-size: 8rem ;
+	color: #339AF0 ;
+	opacity: 1 ;
+}
+
+footer #logos:hover section:hover > #icon6 {
+	font-size: 8rem ;
+	color: #F05133 ;
+	opacity: 1 ;
+}
+
+footer #logos:hover section:hover > #icon7 {
+	font-size: 8rem ;
+	color: #2C2D2E ;
+	opacity: 1 ;
+}
+
 
