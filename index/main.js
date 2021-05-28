@@ -11,7 +11,7 @@ fetch(api)
 							<div id="photo">
 								<h2>${data.title}</h2>
 								<h4>Autor: ${data.copyright}</h4>
-								<p>Información de la imágen: ${data.explanation}</p>
+								<p>Info: ${data.explanation}</p>
 							</div>
 						</figure>` 
 	console.log(data)
