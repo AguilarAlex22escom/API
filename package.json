@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/AguilarAlex22escom/API#readme",
   "dependencies": {
+    "aos": "^2.3.4",
     "jquery": "^3.6.0"
   }
 }
