@@ -172,7 +172,7 @@ footer {
 	align-items: center ;
 	justify-content: center ;
 	width: 100% ;
-	margin: 2rem 0 ;
+	margin: 6rem 0 2rem ;
 	border-top: 0.1rem solid rgba(0, 0, 0, 0.2) ;
 	position: relative ;
 }
@@ -221,19 +221,19 @@ footer #logos section p {
 	font-weight: lighter ;
 }
 
-footer #logos section:hover > #icon1 {
+footer #logos section > #icon1:hover {
 	font-size: 8rem ;
 	color: #E44E26 ;
 	opacity: 1 ;
 }
 
-footer #logos section:hover > #icon2 {
+footer #logos section > #icon2:hover {
 	font-size: 8rem ;
 	color: #0070BB ;
 	opacity: 1 ;
 }
 
-footer #logos:hover section:hover > #icon3 {
+footer #logos:hover section > #icon3:hover {
 	font-size: 8rem ;
 	color: #F0DB4F ;
 	opacity: 1 ;
@@ -244,28 +244,28 @@ footer #logos section img {
 	bottom: 100% ;
 	right: 0% ;
 	position: relative ;
-	filter: opacity(0.5) ;
+	filter: opacity(0.5) grayscale(100%) ;
 	transition: all 0.5s ease-out ;
 }
 
-footer #logos section:hover img {
+footer #logos section img:hover {
 	position: relative ;
-	filter: opacity(1) ;
+	filter: opacity(1) grayscale(0%) ;
 }
 
-footer #logos:hover section:hover > #icon5 {
+footer #logos:hover section > #icon5:hover {
 	font-size: 8rem ;
 	color: #339AF0 ;
 	opacity: 1 ;
 }
 
-footer #logos:hover section:hover > #icon6 {
+footer #logos:hover section > #icon6:hover {
 	font-size: 8rem ;
 	color: #F05133 ;
 	opacity: 1 ;
 }
 
-footer #logos:hover section:hover > #icon7 {
+footer #logos:hover section > #icon7:hover {
 	font-size: 8rem ;
 	color: #2C2D2E ;
 	opacity: 1 ;

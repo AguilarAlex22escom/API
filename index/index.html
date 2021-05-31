@@ -4,15 +4,23 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width-device-width, intial-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- Google fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+	<!-- AOS Js -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<title>API_RamirezAguilar</title>
 	<script type="text/javascript" src="main.js"></script>
 </head>
 <body>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init() 
+	</script>
 	<div id="container">
 		<div class="start">
 			<header>
@@ -24,38 +32,38 @@
 			</header>
 			<h3>La imágen del día!</h3>
 		</div>
-		<div id="element">
+		<div id="element" data-aos="fade-up">
 		</div>
 		<footer>
 			<h2> Tecnologías utilizadas: </h2>
-			<div id="logos">
-				<section>
+			<div id="logos" data-aos="fade-up">
+				<section data-aos="fade-up-right">
 					<i class="fab fa-html5" id="icon1"></i>
 					<p> HTML </p>
 				</section>
-				<section>
+				<section data-aos="fade-up-right">
 					<i class="fab fa-css3-alt" id="icon2"></i>
 					<p> CSS </p>
 				</section>
-				<section>
+				<section data-aos="fade-up-right">
 					<i class="fab fa-js" id="icon3"></i>
 					<p> javascript </p>
 				</section>
-				<section>
+				<section data-aos="fade-up-right">
 					<figure>
 						<img src="nasa.png">
 					</figure>
 					<p> NASA API </p>
 				</section>
-				<section>
+				<section data-aos="fade-up-right">
 					<i class="fab fa-font-awesome-flag" id="icon5"></i>
 					<p> Font Awesome </p>
 				</section>
-				<section>
+				<section data-aos="fade-up-right">
 					<i class="fab fa-git" id="icon6"></i>
 					<p> GIT </p>
 				</section>
-				<section>
+				<section data-aos="fade-up-right">
 					<i class="fab fa-github-alt" id="icon7"></i>
 					<p> Github </p>
 				</section>
